@@ -13,7 +13,7 @@ class Persona {
 };
 
 Persona::Persona(string nom, string ape, long int dni, float pes, float alt) {
-    nombre = nom;
+    Persona::nombre = nom;
     apellido = ape;
     DNI = dni;
     peso = pes;
